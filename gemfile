@@ -1,0 +1,12 @@
+source "https://rubygems.org"
+
+source 'https://rubygems.org' do
+  gem 'dotenv', '~> 2.8.1'
+  gem 'gitlab', '~> 4.19.0'
+
+  group :development do
+    gem 'bundler'
+    gem 'syntax_tree-haml'
+    gem 'syntax_tree-rbs'
+  end
+end
